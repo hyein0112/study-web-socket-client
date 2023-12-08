@@ -5,6 +5,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<P.Chat />} />
+      <Route path="/login" element={<P.Login />} />
     </Routes>
   );
 }
